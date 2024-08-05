@@ -1,0 +1,186 @@
+body {
+  margin: 0 auto;
+  font-family: "Times New Roman", Times;
+  padding: 0px;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?t=st=1677155957~exp=1677156557~hmac=97f829d52af98d763133f065502db351301738bbde879d538bfbfcc8c8227ed4);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* set height and width of HTML element */
+html {
+  height: 50%;
+  width: 100%;
+}
+
+/* This section styles the h1 elements by aligning the text to the center. */
+.col-md-9 {
+  font-family: "Times New Roman", cursive;
+  text-align: center;
+  color: #ff763b;
+}
+
+/* HEADER Formatting */
+/* Make the header with orange background and white typing */
+header {
+  background-color: #fef0da;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+/*Style the submit button*/
+a[type="Cart"],
+a[type="register"],
+a[type="login"] {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+a[type="buy"] {
+  background-color: rgb(22, 164, 22);
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+a[type="Add to Cart"] {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+/*Bring the header down to be centred*/
+header h1 {
+  margin: 40px;
+}
+
+/*Resize the image on the header, setting the width & height of the image*/
+header img {
+  width: 250px;
+  height: 200px;
+}
+
+/* CARD Formatting */
+/*Uniform the card pictures size to not stretch when the window resizes*/
+.card img {
+  height: 100px; /* set height of the image */
+  width: auto; /* set width of the image */
+  max-width: 100%; /* set maximum width of the image */
+  margin: 0 auto; /* center the image */
+  min-height: 100px; /*set minimum height of the image */
+}
+
+/*Set the height of the card so it is a clear grid*/
+.card {
+  margin: 5px; /* set margin for the card */
+  float: none; /* prevent the card from floating */
+  min-height: 250px; /* set minimum height of the card */
+  margin-top: 10px; /* set top margin of the card */
+  margin-bottom: 10px; /* set bottom margin of the card */
+  padding: 8px 8px 0px; /* set padding for the card */
+  text-align: center; /* center align the text of the product */
+  height: 90%; /* set the height of the card */
+}
+
+/* This styles the body of a card by making it a flex container with a column layout */
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* This styles the text in a card by centering it and increasing its font size to 130% */
+.card-text {
+  text-align: center;
+  font-size: 130%;
+}
+
+/* This applies a box shadow effect and scales up the size of the card on hover */
+.card:hover {
+  box-shadow: 0px 0px 10px 5px rgba(238, 181, 23, 0.63);
+  transform: scale(1.1);
+  transition: 0.7s;
+  background-size: cover;
+  /* Apply the backdrop filter for blur effect */
+  backdrop-filter: blur(10px);
+}
+
+/* FOOTER Formatting 
+/* Align the text within the footer, justifies the text in paragraphs and form groups within the footer */
+p,
+.form-group {
+  text-align: justify;
+}
+
+/* BUTTONS Formatting */
+
+/* This changes the background color of a button on hover */
+button[type="submit"]:hover {
+  background-color: #6c757d;
+}
+
+/* This styles the submit button with an orange background, white text, and a few other properties */
+button[type="submit"] {
+  background-color: #ff8228; /* Orange Colour*/
+  color: #fff; /* White Colour*/
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* This sets the height of a card with a orange border to 350px */
+.card.border-warning {
+  height: 350px;
+}
+
+/* This sets the margin of a button at the bottom of a container */
+button.btn {
+  margin-top: auto;
+}
+
+/* This adds padding to the top of a price element to not to be too close of the product description */
+.price {
+  padding-top: 50px;
+}
+
+/* This adds margin to the top of a submit button in the footer */
+footer form button[type="submit"] {
+  margin-top: 1rem; /* Add top margin */
+}
+
+/* This adds margin to the top of a third column in the footer */
+footer .col-md-2 {
+  margin-top: 1.5rem; /* Add top margin */
+}
+
+.btn-link {
+  display: flex !important;
+  gap: 10px !important;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: #6c757d;
+}
+
+.gap {
+  height:15px;
+  width: auto ;
+  background-color: #fff;
+  padding : 1px;
+}
